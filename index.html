@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IMTheBale Dev</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-900 flex flex-col items-center justify-center min-h-screen text-white">
+
+
+  <div id="switch-container" class="grid grid-cols-3 gap-8">
+    <div class="toggle-switch flex flex-col items-center">
+      <label class="flex flex-col items-center cursor-pointer">
+        <input type="checkbox" id="switch1" class="toggle-checkbox">
+        <span class="slider"></span>
+        <span class="mt-2">Happiness</span>
+      </label>
+    </div>
+
+    <div class="toggle-switch flex flex-col items-center">
+      <label class="flex flex-col items-center cursor-pointer">
+        <input type="checkbox" id="switch2" class="toggle-checkbox">
+        <span class="slider"></span>
+        <span class="mt-2">Optimism</span>
+      </label>
+    </div>
+
+    <div class="toggle-switch flex flex-col items-center">
+      <label class="flex flex-col items-center cursor-pointer">
+        <input type="checkbox" id="switch3" class="toggle-checkbox">
+        <span class="slider"></span>
+        <span class="mt-2">Kindness</span>
+      </label>
+    </div>
+
+    <div class="toggle-switch flex flex-col items-center">
+      <label class="flex flex-col items-center cursor-pointer">
+        <input type="checkbox" id="switch4" class="toggle-checkbox">
+        <span class="slider"></span>
+        <span class="mt-2">Generosity</span>
+      </label>
+    </div>
+
+    <div class="toggle-switch flex flex-col items-center">
+      <label class="flex flex-col items-center cursor-pointer">
+        <input type="checkbox" id="switch5" class="toggle-checkbox">
+        <span class="slider"></span>
+        <span class="mt-2">Respect</span>
+      </label>
+    </div>
+
+    <div class="toggle-switch flex flex-col items-center">
+      <label class="flex flex-col items-center cursor-pointer">
+        <input type="checkbox" id="switch6" class="toggle-checkbox" onchange="toggleSwitches()">
+        <span class="slider"></span>
+        <span class="mt-2">EGO</span>
+      </label>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
